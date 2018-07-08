@@ -1,0 +1,18 @@
+{
+    "require": {
+        "php": "7.*",
+        "symfony/console": "^4.1",
+        "symfony/finder": "^4.1",
+        "amphp/parallel-functions": "^0.1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    }
+}
